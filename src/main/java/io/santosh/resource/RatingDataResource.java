@@ -32,4 +32,10 @@ public class RatingDataResource {
 		
 		return userRating;
 	}
+	
+	@GetMapping("/greet")
+	public String greet() {
+		
+		return "Hello Santosh Welcome";
+	}
 }
